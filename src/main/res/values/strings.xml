@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ojun</string>
+    <string name="username">Ojek Unila</string>
+    <string name="logout">Logout</string>
+</resources>

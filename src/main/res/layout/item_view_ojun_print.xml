@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:id="@+id/card">
+
+    <ImageView
+        android:id="@+id/img_fc"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ojunprint"/>
+
+    <TextView
+        android:id="@+id/name_fc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fotocopy Cahaya"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/img_fc"/>
+
+    <TextView
+        android:id="@+id/desc_fc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Print skirpsi, laporan, tugas, laprak"
+        android:layout_below="@id/name_fc"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="12sp"
+        android:layout_toEndOf="@id/img_fc"/>
+
+    <TextView
+        android:id="@+id/disc_fc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diskon ongkir s.d 6rb"
+        android:layout_below="@id/desc_fc"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="12sp"
+        android:layout_toEndOf="@id/img_fc"/>
+
+</RelativeLayout>
